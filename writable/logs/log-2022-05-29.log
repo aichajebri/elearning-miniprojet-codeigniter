@@ -1,0 +1,16 @@
+CRITICAL - 2022-05-29 14:54:06 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\elearning-1.4\app\Controllers\UserManagement.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 179)
+#1 C:\xampp\htdocs\elearning-1.4\app\Controllers\UserManagement.php(66): App\Controllers\UserManagement->checkUserCredentials('med', '000')
+#2 C:\xampp\htdocs\elearning-1.4\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\xampp\htdocs\elearning-1.4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\xampp\htdocs\elearning-1.4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\elearning-1.4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 14:54:06 --> Attempt to read property "id" on null
+#0 C:\xampp\htdocs\elearning-1.4\app\Controllers\UserManagement.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 179)
+#1 C:\xampp\htdocs\elearning-1.4\app\Controllers\UserManagement.php(66): App\Controllers\UserManagement->checkUserCredentials('med', '000')
+#2 C:\xampp\htdocs\elearning-1.4\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\xampp\htdocs\elearning-1.4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\xampp\htdocs\elearning-1.4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\elearning-1.4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

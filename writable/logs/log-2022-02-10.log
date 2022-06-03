@@ -1,0 +1,87 @@
+CRITICAL - 2022-02-10 01:42:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->results()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 01:45:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->results()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 01:46:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->results()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-10 01:48:42 --> Class 'User' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-02-10 01:54:08 --> Champ 'login' inconnu dans where clause
+CRITICAL - 2022-02-10 01:54:08 --> Champ 'login' inconnu dans where clause
+#0 C:\wamp64\www\seed\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\seed\codeigniter\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(108): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(53): App\Controllers\UserManagement->checkUserPwdfromDb('sdqdf', 'sdsqdqd')
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-10 02:44:42 --> Trying to get property 'user_type' of non-object
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\s...', 59, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-10 02:45:35 --> Undefined property: stdClass::$user_type
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(176): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 176, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(62): App\Controllers\UserManagement->getUserType(1)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 02:47:10 --> Undefined property: stdClass::$user_type
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(178): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 178, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(62): App\Controllers\UserManagement->getUserType(1)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 02:50:52 --> Call to undefined method App\Controllers\UserManagement::redirect()
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(177): App\Controllers\UserManagement->setAccountType('student')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(62): App\Controllers\UserManagement->getUserType(1)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 02:51:16 --> Call to undefined method App\Controllers\UserManagement::redirect()
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(178): App\Controllers\UserManagement->setAccountType('student')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(62): App\Controllers\UserManagement->getUserType(1)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 02:53:03 --> Call to undefined method App\Controllers\UserManagement::redirect()
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(181): App\Controllers\UserManagement->setAccountType('student')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(62): App\Controllers\UserManagement->getUserType(1)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-10 07:52:55 --> Call to undefined method App\Controllers\UserManagement::return()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->test()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

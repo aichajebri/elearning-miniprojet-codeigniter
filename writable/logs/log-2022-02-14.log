@@ -1,0 +1,44 @@
+CRITICAL - 2022-02-14 08:03:14 --> Undefined property: App\Controllers\Student::$db
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\s...', 62, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->courses()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-14 08:31:51 --> Too few arguments to function App\Controllers\Instructor::open_course(), 0 passed in C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->open_course()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 08:36:55 --> Undefined variable: img_path
+#0 C:\wamp64\www\seed\codeigniter\app\Views\student\open_course.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 86, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(62): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(84): view('index.php', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->open_course('3')
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-14 09:53:11 --> Cannot use object of type stdClass as array
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(51): App\Controllers\UserManagement->checkUserCredentials('aicha', '0000')
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-14 10:02:31 --> Duplicata du champ '0' pour la clef 'PRIMARY'
+CRITICAL - 2022-02-14 10:02:31 --> Duplicata du champ '0' pour la clef 'PRIMARY'
+#0 C:\wamp64\www\seed\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `su...', 0)
+#1 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `su...')
+#2 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `su...')
+#3 C:\wamp64\www\seed\codeigniter\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `su...', Array, false)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(67): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->enroll('4')
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

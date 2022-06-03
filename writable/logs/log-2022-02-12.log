@@ -1,0 +1,252 @@
+CRITICAL - 2022-02-12 13:06:33 --> Too few arguments to function App\Controllers\Student::open_course(), 0 passed in C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->open_course()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 17:38:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 17:47:34 --> Undefined index: type
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 43, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 17:56:34 --> Undefined index: label
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 39, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 17:57:06 --> Undefined index: id
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 40, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 17:57:19 --> whereNotIn() expects $values to be of type array or closure
+#0 C:\wamp64\www\seed\codeigniter\system\Database\BaseBuilder.php(757): CodeIgniter\Database\BaseBuilder->_whereIn('id', '2', true, 'AND ', NULL)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(45): CodeIgniter\Database\BaseBuilder->whereNotIn('id', '2')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 17:57:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 17:59:02 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 17:59:47 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::whereNotIn() must be of the type string or null, array given, called in C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php on line 45
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(45): CodeIgniter\Database\BaseBuilder->whereNotIn(Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 18:01:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 18:03:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 18:04:01 --> Illegal string offset 'user_type'
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\wamp64\\www\\s...', 54, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 18:07:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-12 19:04:14 --> move_uploaded_file(http://localhost/seed/codeigniter/public/img0181347097_936992340469523_5374185289576522240_n.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 48, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(48): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:05:25 --> move_uploaded_file(http://localhost/seed/codeigniter/public/public/img0android-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 48, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(48): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:06:46 --> move_uploaded_file(http://localhost/seed/codeigniter/public/public/img0android-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 48, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(48): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:08:50 --> move_uploaded_file(http://localhost/seed/codeigniter/public/public/img0android-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 49, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(49): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:12:40 --> move_uploaded_file(http://localhost/seed/codeigniter/public/public/img0xandroid-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 49, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(49): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:13:01 --> move_uploaded_file(http://localhost/seed/codeigniter/public/img0xandroid-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 49, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(49): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:13:18 --> move_uploaded_file(http://localhost/seed/codeigniter/public/img0android-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 49, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(49): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:13:40 --> move_uploaded_file(http://localhost/seed/codeigniter/public/img0android-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 49, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(49): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:14:09 --> move_uploaded_file(http://localhost/seed/codeigniter/public/img0/android-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 49, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(49): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:15:23 --> move_uploaded_file(http://localhost/seed/codeigniter/public/img0/android-icon-192x192.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 49, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(49): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:20:57 --> move_uploaded_file(http://localhost/seed/codeigniter/public/img0/apple-icon.png): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 54, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(54): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'http://localhos...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:22:44 --> Undefined index: File
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 55, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 19:23:08 --> move_uploaded_file(C:/wamp64/www/img0/1.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 55, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(55): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'C:/wamp64/www/i...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:23:32 --> syntax error, unexpected 'jpg' (T_STRING), expecting ')'
+#0 C:\wamp64\www\seed\codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('instructor/add_...')
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('instructor/add_...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 19:24:03 --> syntax error, unexpected ';', expecting ')'
+#0 C:\wamp64\www\seed\codeigniter\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('instructor/add_...')
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('instructor/add_...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-12 19:24:23 --> move_uploaded_file(C:/wamp64/www/img0/1.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 55, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(55): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'C:/wamp64/www/i...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:27:58 --> move_uploaded_file(C:/wamp64/www/img0/1.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 54, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(54): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'C:/wamp64/www/i...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:29:43 --> move_uploaded_file(C:/wamp64/wwwimg0\1.jpg): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'move_uploaded_f...', 'C:\\wamp64\\www\\s...', 55, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Instructor.php(55): move_uploaded_file('C:\\wamp64\\tmp\\p...', 'C:/wamp64/wwwim...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Instructor->add_course()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Instructor))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-12 19:44:47 --> include(admin/view_exams.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(admin/v...', 'C:\\wamp64\\www\\s...', 62, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(62): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(50): view('index.php', Array)
+#6 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(12): App\Controllers\Student->view_exams()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#9 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-12 19:44:52 --> include(admin/view_exams.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(admin/v...', 'C:\\wamp64\\www\\s...', 62, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(62): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(50): view('index.php', Array)
+#6 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(12): App\Controllers\Student->view_exams()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#9 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

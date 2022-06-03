@@ -1,0 +1,305 @@
+CRITICAL - 2022-02-07 08:43:05 --> include(page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(page_to...', 'C:\\wamp64\\www\\s...', 77, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(77): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(9): view('index.php')
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 08:43:52 --> Undefined variable: page_name
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 17, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(16): view('index.php')
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 08:44:30 --> Undefined variable: page_name
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 17, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(16): view('index.php')
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 08:45:39 --> include(page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(page_to...', 'C:\\wamp64\\www\\s...', 77, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(77): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(18): view('index.php', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 08:53:27 --> Undefined variable: session
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 25, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-07 09:01:24 --> Undefined index: account_type
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 11, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(32): view('index.php', Array)
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 09:46:33 --> Undefined index: account_type
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\wamp64\\www\\s...', 11, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(32): view('index.php', Array)
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 10:28:53 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:29:06 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:29:07 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:29:16 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:29:44 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:29:57 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:29:57 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:30:06 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:30:07 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:30:23 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:30:32 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 10:30:32 --> Call to a member function get() on null
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include()
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(48): view('index.php', Array)
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-07 11:19:59 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(17): redirect('/login', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 11:21:34 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(17): redirect('/login', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 11:22:20 --> Undefined variable: page_name
+#0 C:\wamp64\www\seed\codeigniter\app\Views\page_top.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 8, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\sign_in.php(1): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('sign_in.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(24): view('sign_in.php')
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->login()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 11:23:42 --> Undefined variable: page_name
+#0 C:\wamp64\www\seed\codeigniter\app\Views\page_top.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\s...', 8, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\sign_in.php(1): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('sign_in.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(24): view('sign_in.php')
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->login()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-07 11:28:20 --> Use of undefined constant error - assumed 'error' (this will throw an Error in a future version of PHP)
+#0 C:\wamp64\www\seed\codeigniter\app\Views\sign_in.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\wamp64\\www\\s...', 34, Array)
+#1 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('sign_in.php', Array, true)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(24): view('sign_in.php')
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->login()
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-07 11:29:43 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(17): redirect('/login', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 11:29:53 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-07 11:31:36 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(17): redirect('/login', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 11:32:08 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(17): redirect('/login', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 11:33:03 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(17): redirect('http://localhos...', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 11:33:35 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(19): redirect('http://localhos...', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-07 11:36:36 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Home.php(19): redirect('../login', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

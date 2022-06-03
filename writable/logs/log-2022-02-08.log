@@ -1,0 +1,308 @@
+CRITICAL - 2022-02-08 04:32:41 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(79): redirect('/student', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(56): App\Controllers\UserManagement->setAccountType('student')
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 04:33:51 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(81): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(56): App\Controllers\UserManagement->setAccountType('student')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 04:34:00 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(81): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(56): App\Controllers\UserManagement->setAccountType('student')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 04:35:04 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(83): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(56): App\Controllers\UserManagement->setAccountType('student')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 04:35:44 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(83): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(56): App\Controllers\UserManagement->setAccountType('student')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 04:36:36 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(62): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 04:41:21 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(84): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(56): App\Controllers\UserManagement->setAccountType('student')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 04:41:51 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(84): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(56): App\Controllers\UserManagement->setAccountType('student')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 04:45:08 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(84): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(53): App\Controllers\UserManagement->setAccountType('student')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 04:48:21 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(54): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 04:50:07 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(54): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 04:51:21 --> Call to undefined method App\Controllers\UserManagement::redirect()
+#0 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(53): App\Controllers\UserManagement->setAccountType('student')
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-08 04:52:51 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(54): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->checkAccount()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-08 04:53:23 -->  route cannot be found while reverse-routing.
+#0 C:\wamp64\www\seed\codeigniter\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\UserManagement.php(37): redirect('/login', 'refresh')
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\UserManagement->logout()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserManagement))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 05:02:45 --> include(student/view_exams.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(student...', 'C:\\wamp64\\www\\s...', 54, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(54): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(44): view('index.php', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->view_exams()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 05:05:29 --> include(student/hoLA.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(student...', 'C:\\wamp64\\www\\s...', 54, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(54): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(28): view('index.php', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 05:09:20 --> include(student/hoLA.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(student...', 'C:\\wamp64\\www\\s...', 54, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\index.php(54): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index.php', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Student.php(28): view('index.php', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Student->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-02-08 08:44:32 --> Error connecting to the database: Base 'elearning' inconnue
+CRITICAL - 2022-02-08 08:44:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Base 'elearning' inconnue
+#0 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\seed\codeigniter\app\Controllers\Test.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->index()
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-08 08:48:03 --> La table 'elearning.test000' n'existe pas
+CRITICAL - 2022-02-08 08:48:03 --> La table 'elearning.test000' n'existe pas
+#0 C:\wamp64\www\seed\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Test.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->index()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-02-08 08:49:12 --> La table 'elearning.test000' n'existe pas
+CRITICAL - 2022-02-08 08:49:12 --> La table 'elearning.test000' n'existe pas
+#0 C:\wamp64\www\seed\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM t...', 0)
+#1 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM t...')
+#2 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM t...')
+#3 C:\wamp64\www\seed\codeigniter\app\Controllers\Test.php(16): CodeIgniter\Database\BaseConnection->query('SELECT * FROM t...')
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->index()
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-08 08:49:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getQuery()
+#0 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->index()
+#1 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#2 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-08 10:21:17 --> Erreur de syntaxe près de '0 = :0:
+WHERE `label` = :label:' à la ligne 1
+CRITICAL - 2022-02-08 10:21:17 --> Erreur de syntaxe près de '0 = :0:
+WHERE `label` = :label:' à la ligne 1
+#0 C:\wamp64\www\seed\codeigniter\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `test` S...', 0)
+#1 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `test` S...')
+#2 C:\wamp64\www\seed\codeigniter\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `test` S...')
+#3 C:\wamp64\www\seed\codeigniter\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `test` S...', Array, false)
+#4 C:\wamp64\www\seed\codeigniter\app\Controllers\Test.php(52): CodeIgniter\Database\BaseBuilder->update(Array, Array)
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Test->updateItem()
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Test))
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-08 11:25:31 --> Invalid file: index_admin.php
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_admin.php')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index_admin.php', Array, true)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('index_admin.php', Array)
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 11:25:40 --> Invalid file: index_admin.php
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index_admin.php')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('index_admin', Array, true)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('index_admin', Array)
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 11:25:53 --> Invalid file: admin/ndex_admin.php
+#0 C:\wamp64\www\seed\codeigniter\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/ndex_admi...')
+#1 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('admin/ndex_admi...', Array, true)
+#2 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('admin/ndex_admi...', Array)
+#3 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#4 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-08 11:26:54 --> include(page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(page_to...', 'C:\\wamp64\\www\\s...', 1, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('admin/index_adm...', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('admin/index_adm...', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 11:27:09 --> include(../page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../page...', 'C:\\wamp64\\www\\s...', 1, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('admin/index_adm...', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('admin/index_adm...', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 11:27:20 --> include(../../page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../p...', 'C:\\wamp64\\www\\s...', 1, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('admin/index_adm...', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('admin/index_adm...', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 11:27:39 --> include(../page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../page...', 'C:\\wamp64\\www\\s...', 1, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('admin/index_adm...', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('admin/index_adm...', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 11:27:47 --> include(./page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./page_...', 'C:\\wamp64\\www\\s...', 1, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('admin/index_adm...', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('admin/index_adm...', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-08 11:27:48 --> include(./page_top.php): failed to open stream: No such file or directory
+#0 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./page_...', 'C:\\wamp64\\www\\s...', 1, Array)
+#1 C:\wamp64\www\seed\codeigniter\app\Views\admin\index_admin.php(1): include()
+#2 C:\wamp64\www\seed\codeigniter\system\View\View.php(210): include('C:\\wamp64\\www\\s...')
+#3 C:\wamp64\www\seed\codeigniter\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\wamp64\www\seed\codeigniter\system\Common.php(1089): CodeIgniter\View\View->render('admin/index_adm...', Array, true)
+#5 C:\wamp64\www\seed\codeigniter\app\Controllers\Admin.php(18): view('admin/index_adm...', Array)
+#6 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(825): App\Controllers\Admin->index()
+#7 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\wamp64\www\seed\codeigniter\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\seed\codeigniter\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
